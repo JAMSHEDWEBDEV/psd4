@@ -1,0 +1,339 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+/*navigation part responsive code start*/
+
+.navbar-nav{
+	margin-top: 20px;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: gray;
+	color: white;
+}
+.navbar-nav .nav-item .nav-link.active:hover{
+	color: white;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+
+.banner_image img{
+	height: 400px;
+}
+.banner_overlay h1{
+	font-size: 30px;
+	margin-top: -100px;
+}
+.banner_overlay p{
+    font-size: 18px;
+    padding: 0 15px;
+}
+.banner_overlay h1::before{
+	top: 50px;
+	left: 100px;
+	width: 120px;
+}
+.banner_overlay a{
+	top: 350px;
+	left: 70px;
+}
+
+
+/*banner part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_image img{
+	height: 450px;
+}
+.contact_content h1{
+	font-size: 20px;
+	margin:0 -50px 0 -150px;
+}
+.contact_content p{
+    margin: 0 -90px 0 -200px;
+    padding: 15px 0;
+}
+.contact_form input{
+	width: 280px;
+	margin-left: -80px;
+}
+.contact_form textarea{
+	width: 280px;
+	margin-left: -80px;
+	height: 70px;
+}
+.contact_form li{
+	margin:20px 0 0 -80px;
+}
+.contact_form button{
+     margin:-70px 0 0 -700px;
+}
+
+
+/*contact part responsive code end*/
+
+/*footer part responsive code start*/
+
+.copy_right p{
+	text-align: center;
+}
+.footer_icon{
+	text-align: center;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav{
+	margin-top: 15px;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: seagreen;
+	color: white;
+}
+.navbar-nav .nav-item .nav-link.active:hover{
+	color: white;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_image img{
+	height: 500px;
+}
+.banner_overlay h1{
+	margin: -60px 0 0;
+	font-size: 50px;
+}
+.banner_overlay h1::before{
+	top: 70px;
+	left: 200px;
+	width: 180px;
+}
+.banner_overlay p{
+	font-size: 25px;
+	padding: 10px 30px;
+}
+.banner_overlay a{
+    top: 430px;
+    left: 200px;
+}
+
+/*banner part responsive code end*/
+
+/*gallery part responsive code start*/
+
+.gallary_heading h1{
+	font-size: 30px;
+}
+
+/*gallery part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_image img{
+	height: 500px;
+}
+.contact_content h1{
+	font-size: 35px;
+}
+.contact_form textarea{
+	width: 490px;
+}
+.contact_form button{
+	 margin:-30px 0 0 -470px;
+}
+
+/*contact part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_icon {
+	margin-top: -40px;
+}
+.copy_right p{
+	margin-top: 20px;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav{
+   margin-top: 15px;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: royalblue;
+	color: black;
+}
+.navbar-nav .nav-item .nav-link.active:hover{
+	color: black;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_image img{
+	height: 600px;
+}
+.banner_overlay h1::before{
+	left: 40px;
+}
+.banner_overlay p{
+	font-size: 27px;
+}
+.banner_overlay a{
+    top: 520px;
+    left: 300px;
+}
+
+/*banner part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_image img{
+	height: 500px;
+}
+.contact_form textarea{
+	width: 490px;
+}
+.contact_form button{
+	 margin:-30px 0 0 -370px;
+}
+
+/*contact part responsive code end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+  margin-top: -100px;
+}
+.banner_overlay h1::before{
+	left: 200px;
+}
+.banner_overlay p{
+	font-size: 35px;
+}
+.banner_overlay a{
+    top: 440px;
+    left: 410px;
+}
+
+/*banner part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_image img{
+	height: 500px;
+}
+.contact_form input{
+	width: 600px;
+}
+.contact_form textarea{
+     width: 600px;
+}
+.contact_form button{
+	 margin:-30px 0 0 -200px;
+}
+
+/*contact part responsive code end*/
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+
+/*banner part responsive code start*/
+
+.banner_overlay h1::before{
+	left: 300px;
+}
+.banner_overlay a{
+    top: 520px;
+    left: 520px;
+}
+
+/*banner part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_form input{
+	width: 100%;
+}
+.contact_form button{
+	 margin:-30px 0 0 -170px;
+}
+
+/*contact part responsive code end*/
+
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+
+
+.banner_overlay a{
+	left: 600px;
+}
+/*contact part responsive code start*/
+
+.contact_form textarea{
+     width: 100%;
+}
+
+.contact_form button{
+     margin:-30px 0 0 -70px;
+}
+
+
+/*contact part responsive code end*/
+
+}

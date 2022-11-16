@@ -1,0 +1,342 @@
+/*header part css start*/
+
+.navbar{
+	background-color: #f6f9f9;
+}
+
+.navbar a{
+	font-family: lato;
+	font-size: 30px;
+	font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link{
+	font-family: lato;
+	font-size: 20px;
+	font-weight: 400;
+	color: #2d3950;
+	padding: 0 20px;
+	transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: royalblue;
+	transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link.active{
+	font-family: lato;
+	font-size: 20px;
+	font-weight: 400;
+	color: #2d3950;
+	transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link.active:hover{
+	color: royalblue;
+	transition: all linear .4s;
+}
+
+
+/*header part css end*/
+
+/*banner part css start*/
+
+.banner_image{
+	position: relative;
+}
+
+.banner_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 200px 0 50px;
+	height: 100%;
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+.banner_overlay h1{
+	text-align: center;
+	position: relative;
+	font-family: lato;
+	font-size: 120px;
+	font-weight: bold;
+	color: white;
+}
+.banner_overlay h1::before{
+	position: absolute;
+	content: '';
+	top: 150px;
+	left: 380px;
+	height: 2px;
+	width: 700px;
+	background-color:#15a4fa;
+}
+.banner_overlay p{
+	margin: 25px 0 40px;
+	font-family: lato;
+	font-size:20px;
+	font-weight: 400;
+	color: white;
+}
+.banner_overlay button{
+	height: 40px;
+	width: 130px;
+	border: 1px solid #15a4fa;
+	background-color: transparent;
+	font-family: lato;
+	font-size:18px;
+	font-weight: 400;
+	color: white;
+    position: relative;
+}
+.banner_overlay a{
+	color: white;
+	position: absolute;
+	top: 600px;
+	left: 670px;
+	margin-left: 80px;
+}
+/*banner part css end*/
+
+/*about part css start*/
+
+#about{
+	background-color: #f6f9f9;
+}
+
+.about_heading h3{
+	text-align: center;
+	padding: 77px 0 30px;
+	font-family: lato;
+	font-size: 40px;
+	font-weight: 400;
+	color: #2d3950;
+}
+.about_content p{
+	text-align: center;
+	padding: 0 0 60px;
+	font-family: lato;
+	font-size: 20px;
+	font-weight: 400;
+	color: #aeafaf;
+}
+/*about part css end*/
+
+/*service part css start*/
+
+.service_icon{
+	height: 70px;
+	width: 70px;
+	background-color:#15a4fa;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.service_icon i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 70px;
+	color: white;
+	font-size: 40px;
+}
+.icon_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding:10px;
+	height: 100%;
+	width: 50%;
+	background-color: rgba(0, 0, 0, 0.1);
+	transform: scale(0);
+	transition: all linear .4s;
+}
+.service_icon:hover .icon_overlay{
+	transform: scale(1);
+	transition: all linear .4s;
+	
+}
+.service_content h4{
+	padding: 15px 0;
+	text-align: center;
+	font-family: lato;
+	font-size: 22px;
+	font-weight: 400;
+	color: #2d3950;
+}
+.service_content p{
+	text-align: center;
+	font-family: lato;
+	font-size: 15px;
+	font-weight: 400;
+	color: #aeafaf;
+	margin-bottom: 60px;
+}
+
+/*service part css end*/
+
+/*gallary part css start*/
+
+#gallary{
+	background-color: #f6f9f9;
+	padding: 50px 0;
+}
+
+.gallary_heading h1{
+	text-align: center;
+	font-family: lato;
+	font-size: 41px;
+	font-weight: 400;
+	color: #2d3950;
+	margin-top: 15px;
+}
+.gallary_heading p{
+	text-align: center;
+	font-family: lato;
+	font-size: 15px;
+	font-weight: 400;
+	color: #aeafaf;
+	margin-bottom:40px;
+}
+.gallary_image{
+	position: relative;
+	margin-bottom: 15px;
+}
+.gallary_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 128, 255, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(0);
+	transition: all linear .4s;
+}
+.gallary_overlay a{
+	height: 40px;
+	width: 40px;
+	border: 1px solid white;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.gallary_image:hover .gallary_overlay{
+	transform: scale(1);
+	transition: all linear .4s;
+}
+
+/*gallary part css end*/
+
+/*contact part css start*/
+
+.contact_image{
+	position: relative;
+}
+
+.contact_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 30, 0.9);
+	padding: 50px 200px;
+}
+.contact_content{
+	text-align: center;
+}
+.contact_content h1{
+	font-family: lato;
+	font-size: 41px;
+	font-weight: 400;
+	color: white;
+}
+.contact_content p{
+	font-family: lato;
+	font-size: 15px;
+	font-weight: 400;
+	color:#939495;
+}
+.contact_form ul{
+	list-style: square;
+	font-size: 40px;
+	color:#9aa0a9;
+}
+.contact_form ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: lato;
+	font-size: 15px;
+	font-weight: 400;
+	float: left;
+	margin-top: 25px;
+}
+.contact_form{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact_form ul button{
+	height: 40px;
+	width: 110px;
+	text-align: center;
+	font-size: 18px;
+	font-family: lato;
+	font-weight: 400;
+	border: none;
+	position: absolute;
+	top: 310px;
+	left: 690px;
+	border: 1px solid #15a4fa;
+	background-color: transparent;
+	color: white;
+}
+.contact_form input{
+	height: 40px;
+	width: 490px;
+	padding-left: 10px;
+	border: 1px solid #999999;
+	background-color: transparent;
+	color: #88898c;
+	font-family: lato;
+	font-size: 15px;
+	font-weight: 400;
+}
+.contact_form textarea{
+	padding-left: 10px;
+	border: 1px solid #999999;
+	background-color: transparent;
+	color: #88898c;
+	font-family: lato;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+/*contact part css end*/
+
+/*footer part css start*/
+
+.copy_right p{
+	font-family: lato;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 15px 0;
+}
+.footer_icon{
+	margin: 15px 0;
+	text-align: right;
+}
+.footer_icon i{
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #15a4fa;
+	color: white;
+}
+
+/*footer part css end*/
